@@ -1,2 +1,2 @@
 # hobbies-project
-Hobbies Project
+Growth Project
