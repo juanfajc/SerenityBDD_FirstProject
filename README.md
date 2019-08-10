@@ -1,2 +1,2 @@
-# crowth-project
+# growth-project
 Growth Project
