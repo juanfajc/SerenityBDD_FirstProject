@@ -1,2 +1,2 @@
-# hobbies-project
+# crowth-project
 Growth Project
