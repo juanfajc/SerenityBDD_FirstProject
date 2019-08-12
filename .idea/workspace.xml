@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f312acc7-8f92-4bb5-9f9f-d3f9ca884a42" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/resources/com/growth/automation/feature/growth_cucumber.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/com/growth/automation/feature/growth_cucumber.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/growth/automation/pageObject/GrowthUserTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/growth/automation/pageObject/GrowthUserTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/serenity.conf" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/serenity.conf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -17,23 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/com/growth/automation/feature/growth_cucumber.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="151" lean-forward="true" selection-start-line="1" selection-start-column="151" selection-end-line="1" selection-end-column="151" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/growth/general/Runner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/serenity.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -66,9 +67,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/growth/automation/pageObject/GrowthCreateUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/growth/automation/stepDefinitionGrowth/StepsRemoveUser.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/growth/general/Runner.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/growth/automation/pageObject/GrowthUserTable.java" />
         <option value="$PROJECT_DIR$/serenity.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/com/growth/automation/feature/growth_cucumber.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/growth/automation/pageObject/GrowthUserTable.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/serenity.conf" />
       </list>
     </option>
   </component>
@@ -83,7 +85,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="width" value="1380" />
     <option name="height" value="735" />
@@ -458,26 +460,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/serenity.conf">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenity.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="40" selection-start-column="40" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/growth/automation/pageObject/GrowthUserTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/growth/automation/stepDefinitionGrowth/StepsRemoveUser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
@@ -492,20 +474,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/growth/general/Runner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/growth/automation/feature/growth_cucumber.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="17">
+          <caret line="1" column="151" lean-forward="true" selection-start-line="1" selection-start-column="151" selection-end-line="1" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/growth/automation/pageObject/GrowthUserTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com/growth/automation/feature/growth_cucumber.feature">
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="151" lean-forward="true" selection-start-line="1" selection-start-column="151" selection-end-line="1" selection-end-column="151" />
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/growth/general/Runner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/serenity.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>

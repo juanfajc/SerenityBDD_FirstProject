@@ -20,7 +20,6 @@ public class GrowthUserTable extends PageObject {
     }
 
     //This method search by name in the list and return the index
-    @Step("Get the ")
     public int getRowLocation(){
         List<String> tableList = getLeaderNameList();
         String search = "Juan Camilo Fajardo";
