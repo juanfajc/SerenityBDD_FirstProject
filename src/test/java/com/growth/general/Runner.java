@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 //        tags = {"@Remove_User"}
 //Notes: The correct way to run the project is setting up tags as a comments and run as maven project in order to get the Serenity BDD report
 //The tags help us to run every single cucumber test created in the feature file
-//The tags are: ("@LoginUser"), ("@Create_User") and ("@Remove_User")
+//The tags are: ("@LoginUser"), ("@Create_User") and ("@Remove_User") Run with mvn clean install
 )
 public class Runner {
 }
