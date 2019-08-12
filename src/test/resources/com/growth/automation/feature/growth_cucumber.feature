@@ -1,5 +1,5 @@
 @LoginUser
-Feature: The user can enter in the vacation management portal with the email and password and the user can create a new user with some specifications, so the user can check the row that has the information and the profile can be deleted.
+Feature: The user can enter in the vacation management portal with the email and password in order to management the creation and validation for a user
 
     Scenario Outline: The user can enter in the vacation management GAP portal
         Given the user can enter in the GAP portal
@@ -14,7 +14,7 @@ Feature: The user can enter in the vacation management portal with the email and
 @Create_User
 #Feature: The user can enter in the portal and create a new user in the list with some specific conditions
 
-    Scenario Outline: the user enter in the GAP portal, the user can create a new member
+    Scenario Outline: The user enter in the GAP portal and the user can create a new member with a specific information
         Given the user can enter in the GAP portal with the <email> email and <password> password
         When the user create a new profile in the portal
         Then the user could check the new profile was created
@@ -27,7 +27,7 @@ Feature: The user can enter in the vacation management portal with the email and
 @Remove_User
 #Feature: The user enter in the portal and validate the user create, after that the user can remove the profile created
 
-    Scenario Outline: the user enter in the GAP portal and check the profile that was created, so the user can remove the profile
+    Scenario Outline: The user enter in the GAP portal and check the profile that was created, so the user can remove the profile and check that it was removed
         Given the user enter in the GAP portal with the <email> email and <password> password
         When the user check the profile created in the table and get the row
         Then the user can delete the profile
